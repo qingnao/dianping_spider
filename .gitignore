@@ -1,0 +1,30 @@
+# 虚拟环境
+venv/
+.venv/
+
+# 编译后的文件
+*.pyc
+__pycache__/
+
+# 日志文件
+*.log
+logs/
+
+# 数据文件
+data/
+*.csv
+*.xlsx
+
+# IDE 配置文件
+.vscode/
+.idea/
+
+# 操作系统生成的文件
+.DS_Store
+
+# 环境变量文件
+.env
+
+# 临时文件
+*.tmp
+temp/
