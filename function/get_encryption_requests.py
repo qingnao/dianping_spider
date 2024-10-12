@@ -50,7 +50,7 @@ def get_shop_url(shop_id):
     @param shop_id:
     @return:
     """
-    shop_url = 'http://www.dianping.com/shop/' + str(shop_id)
+    shop_url = 'https://www.dianping.com/shop/' + str(shop_id)
     return shop_url
 
 
@@ -88,7 +88,7 @@ def get_basic_hidden_info(shop_id):
     """
     assert len(shop_id) == len('H2noKWCDigM0H9c1')
     shop_url = get_shop_url(shop_id)
-    url = 'http://www.dianping.com/ajax/json/shopDynamic/basicHideInfo?' \
+    url = 'https://www.dianping.com/ajax/json/shopDynamic/basicHideInfo?' \
           'shopId=' + str(shop_id) + \
           '&_token=' + str(get_token(shop_url)) + \
           '&tcv=' + str(spider_config.TCV) + \
@@ -161,10 +161,10 @@ def get_review_and_star(shop_id):
     """
     assert len(shop_id) == len('H2noKWCDigM0H9c1')
     shop_url = get_shop_url(shop_id)
-    url = 'http://www.dianping.com/ajax/json/shopDynamic/reviewAndStar?' \
+    url = 'https://www.dianping.com/ajax/json/shopDynamic/reviewAndStar?' \
           'shopId=' + str(shop_id) + \
-          '&cityId=19' \
-          '&mainCategoryId=2821' \
+          '&cityId=1' \
+          '&mainCategoryId=221' \
           '&_token=' + str(get_token(shop_url)) + \
           '&uuid=' + str(spider_config.UUID) + \
           '&platform=1' \
@@ -173,31 +173,43 @@ def get_review_and_star(shop_id):
           '&originUrl=' + shop_url
 
     r = requests_util.get_request_for_interface(url)
-    r_json = json.loads(requests_util.replace_json_text(r.text, get_font_msg()))
+    result = r.text
+    # 使用json.loads()方法将字符串转换为字典
+    data_dict = json.loads(r.text)
+    shop_base_score = data_dict['fiveScore']
 
-    if r_json['code'] == 200:
-        try:
-            shop_base_score = r_json['fiveScore']
-        except:
-            shop_base_score = 0.0
-        score_title_list = r_json['shopScoreTitleList']
-        avg_price = BeautifulSoup(r_json['avgPrice'], 'lxml').text
-        review_count = BeautifulSoup(r_json['defaultReviewCount'], 'lxml').text
-        score_list = []
-        for each in r_json['shopRefinedScoreValueList']:
-            score_list.append(BeautifulSoup(each, 'lxml').text)
-        scores = {}
-        for i, score in enumerate(score_list):
-            scores[score_title_list[i]] = score_list[i]
-        return {
-            '店铺id': shop_id,
-            '店铺总分': shop_base_score,
-            '店铺均分': scores,
-            '人均价格': avg_price,
-            '评论总数': review_count
-        }
-    else:
-        logger.warning('json响应码异常，尝试更改提pr，或者提issue')
+    return {
+        '店铺id': shop_id,
+        '店铺总分': shop_base_score,
+        # '店铺均分': scores,
+        # '人均价格': avg_price,
+        # '评论总数': review_count
+    }
+    # r_json = json.loads(requests_util.replace_json_text(r.text, get_font_msg()))
+    #
+    # if r_json['code'] == 200:
+    #     try:
+    #         shop_base_score = r_json['fiveScore']
+    #     except:
+    #         shop_base_score = 0.0
+    #     score_title_list = r_json['shopScoreTitleList']
+    #     avg_price = BeautifulSoup(r_json['avgPrice'], 'lxml').text
+    #     review_count = BeautifulSoup(r_json['defaultReviewCount'], 'lxml').text
+    #     score_list = []
+    #     for each in r_json['shopRefinedScoreValueList']:
+    #         score_list.append(BeautifulSoup(each, 'lxml').text)
+    #     scores = {}
+    #     for i, score in enumerate(score_list):
+    #         scores[score_title_list[i]] = score_list[i]
+    #     return {
+    #         '店铺id': shop_id,
+    #         '店铺总分': shop_base_score,
+    #         '店铺均分': scores,
+    #         '人均价格': avg_price,
+    #         '评论总数': review_count
+    #     }
+    # else:
+    #     logger.warning('json响应码异常，尝试更改提pr，或者提issue')
 
 
 def get_shop_tabs(shop_id):

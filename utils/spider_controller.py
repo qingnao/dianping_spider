@@ -19,8 +19,11 @@
           ┗━┻━┛   ┗━┻━┛
 
 """
-from tqdm import tqdm
+import random
+from time import sleep
 
+from tqdm import tqdm
+from datetime import datetime
 from function.search import Search
 from function.detail import Detail
 from function.review import Review
@@ -35,7 +38,7 @@ class Controller():
     用来进行爬取策略选择以及数据汇总存储
     """
 
-    def __init__(self):
+    def __init__(self, city_id):
         self.s = Search()
         self.d = Detail()
         self.r = Review()
@@ -44,7 +47,7 @@ class Controller():
         if spider_config.SEARCH_URL == '':
             keyword = spider_config.KEYWORD
             channel_id = spider_config.CHANNEL_ID
-            city_id = spider_config.LOCATION_ID
+            # city_id = spider_config.LOCATION_ID
             self.base_url = 'http://www.dianping.com/search/keyword/' + str(city_id) + '/' + str(
                 channel_id) + '_' + str(keyword) + '/p'
             pass
@@ -131,9 +134,12 @@ class Controller():
                             '评论总数': -,
                         }
                         """
-                        hidden_info = get_basic_hidden_info(shop_id)
+                        # hidden_info = get_basic_hidden_info(shop_id)
+                        # 随机休眠
+                        second =  random.randint(3, 8)
+                        sleep(second)
                         review_and_star = get_review_and_star(shop_id)
-                        each_detail_res.update(hidden_info)
+                        # each_detail_res.update(hidden_info)
                         each_detail_res.update(review_and_star)
                         # 多版本爬取格式适配
                         each_detail_res.update({
@@ -159,17 +165,19 @@ class Controller():
                             '店铺经度': '-'
                         })
                     # 全局整合，将详情以及评论的相关信息拼接到search_res中。
-                    each_search_res['店铺地址'] = each_detail_res['店铺地址']
-                    each_search_res['店铺电话'] = each_detail_res['店铺电话']
                     each_search_res['店铺总分'] = each_detail_res['店铺总分']
-                    if each_search_res['店铺均分'] == '-':
-                        each_search_res['店铺均分'] = each_detail_res['店铺均分']
-                    each_search_res['人均价格'] = each_detail_res['人均价格']
-                    each_search_res['评论总数'] = each_detail_res['评论总数']
-                    each_search_res['其他信息'] = each_detail_res['其他信息']
-                    each_search_res['优惠券信息'] = each_detail_res['优惠券信息']
-                    each_search_res['店铺纬度'] = each_detail_res['店铺纬度']
-                    each_search_res['店铺经度'] = each_detail_res['店铺经度']
+
+                    # each_search_res['店铺地址'] = each_detail_res['店铺地址']
+                    # each_search_res['店铺电话'] = each_detail_res['店铺电话']
+                    # each_search_res['店铺总分'] = each_detail_res['店铺总分']
+                    # if each_search_res['店铺均分'] == '-':
+                    #     each_search_res['店铺均分'] = each_detail_res['店铺均分']
+                    # each_search_res['人均价格'] = each_detail_res['人均价格']
+                    # each_search_res['评论总数'] = each_detail_res['评论总数']
+                    # each_search_res['其他信息'] = each_detail_res['其他信息']
+                    # each_search_res['优惠券信息'] = each_detail_res['优惠券信息']
+                    # each_search_res['店铺纬度'] = each_detail_res['店铺纬度']
+                    # each_search_res['店铺经度'] = each_detail_res['店铺经度']
                 # 爬取评论
                 if spider_config.NEED_REVIEW:
                     shop_id = each_search_res['店铺id']
@@ -209,11 +217,33 @@ class Controller():
                         # 对于已经给到search_res中的信息，删除
                         each_review_res.pop('推荐菜')
 
-
-                self.saver(each_search_res, each_review_res)
+                self.write_dict_to_txt(each_search_res, 'dianping.txt')
+                # self.saver(each_search_res, each_review_res)
             # 如果这一页数据小于15，代表下一页已经没有数据了，直接退出
             if len(search_res) < 15:
                 break
+            
+    def write_dict_to_txt(self, data_dict, file_path):
+        """
+        将字典中的 key-value 写入本地 txt 文件中，每行一个 key-value 对。
+        
+        data_dict: location索引字典
+        file_path: 文件路径（包含文件名，如 'location.txt'）
+        """
+        try:
+            # 获取当前日期
+            current_date = datetime.now().strftime('%Y-%m-%d')
+            
+            # 修改文件名，添加日期
+            file_path_with_date = f"{file_path.split('.')[0]}_{current_date}.txt"
+            with open(file_path_with_date, 'a') as file:
+                name = data_dict['店铺名']
+                star = data_dict['店铺总分']
+                file.write(f'{name}:{star}\n')
+            print(f'数据已成功写入{file_path_with_date}')
+            
+        except Exception as e:
+            print(f'写入文件时出错: {str(e)}')
 
     def get_review(self, shop_id, detail=False):
         if detail:
@@ -295,4 +325,4 @@ class Controller():
             saver.save_data(each_review_res, 'review')
 
 
-controller = Controller()
+# controller = Controller()

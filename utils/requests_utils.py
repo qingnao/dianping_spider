@@ -215,9 +215,12 @@ class RequestsUtils():
         @return:
         """
         retry_time = self.get_retry_time()
-        while True:
+        while retry_time > 0:
             retry_time -= 1
-            r = requests_util.get_requests(url, request_type='proxy, no cookie')
+            cookie = self.get_cookie(url)  # 获取当前可用的 Cookie
+            headers = self.get_header(cookie)
+            # r = requests_util.get_requests(url, request_type='proxy, no cookie')
+            r = requests.get(url, headers=headers)  # 发送请求
             try:
                 # request handle v2
                 r_json = json.loads(r.text)
@@ -231,7 +234,8 @@ class RequestsUtils():
                         cache.is_cold_start = False
                 # 前置验证码过滤
                 if r_json['code'] == 200:
-                    break
+                    return r
+                    # break
                 if retry_time <= 0:
                     logger.warning('替换tsv和uuid，或者代理质量较低')
                     exit()
@@ -269,30 +273,43 @@ class RequestsUtils():
         else:
             return 'search'
 
-    def get_header(self, cookie, need_cookie=True):
-        """
-        获取请求头
-        :return:
-        """
-        if self.ua is not None:
-            ua = self.ua
-        else:
-            ua = self.ua_engine.user_agent()
 
-        # cookie选择
-        if cookie is None:
-            cookie = self.cookie
+    def get_header(self, cookie=None, need_cookie=True):
+        """
+        生成请求头，包括 User-Agent 和可选的 Cookie
+        """
+        ua = self.ua or self.ua_engine.user_agent()
+        headers = {
+            'User-Agent': ua,
+        }
+        if need_cookie and cookie:
+            headers['Cookie'] = cookie
+        return headers
 
-        if need_cookie:
-            header = {
-                'User-Agent': ua,
-                'Cookie': cookie
-            }
-        else:
-            header = {
-                'User-Agent': ua,
-            }
-        return header
+    # def get_header(self, cookie, need_cookie=True):
+    #     """
+    #     获取请求头
+    #     :return:
+    #     """
+    #     if self.ua is not None:
+    #         ua = self.ua
+    #     else:
+    #         ua = self.ua_engine.user_agent()
+    #
+    #     # cookie选择
+    #     if cookie is None:
+    #         cookie = self.cookie
+    #
+    #     if need_cookie:
+    #         header = {
+    #             'User-Agent': ua,
+    #             'Cookie': cookie
+    #         }
+    #     else:
+    #         header = {
+    #             'User-Agent': ua,
+    #         }
+    #     return header
 
     def get_proxy(self):
         """

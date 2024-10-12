@@ -1,0 +1,31 @@
+2024-10-11 10:22:13,887 - 54069-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/saver/mongo_saver.py[line:37] - WARNING: 系统中可能没有安装或启动MongoDB数据库，请先根据系统环境安装或启动MongoDB，再运行程序
+2024-10-11 10:32:34,123 - 54283-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/.venv/lib/python3.9/site-packages/fontTools/ttLib/tables/_p_o_s_t.py[line:296] - WARNING: 2 extra bytes in post.stringData array
+2024-10-11 10:32:34,849 - 54283-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/.venv/lib/python3.9/site-packages/fontTools/ttLib/tables/_p_o_s_t.py[line:296] - WARNING: 2 extra bytes in post.stringData array
+2024-10-11 10:32:35,223 - 54283-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/.venv/lib/python3.9/site-packages/fontTools/ttLib/tables/_p_o_s_t.py[line:296] - WARNING: 2 extra bytes in post.stringData array
+2024-10-11 11:00:26,146 - 56475-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/function/search.py[line:45] - WARNING: 搜索页请求被ban，程序终止
+2024-10-11 11:01:36,463 - 56902-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/function/search.py[line:45] - WARNING: 搜索页请求被ban，程序终止
+2024-10-11 14:43:43,054 - 5830-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:55] - INFO: 使用cookie池
+2024-10-11 14:45:17,389 - 5830-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/get_font_map.py[line:54] - WARNING: cookie失效或者被限制访问，更新cookie或登录大众点评滑动验证
+2024-10-11 14:45:48,261 - 5868-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:55] - INFO: 使用cookie池
+2024-10-11 14:48:12,607 - 5888-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:55] - INFO: 使用cookie池
+2024-10-11 14:52:18,858 - 6011-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:55] - INFO: 使用cookie池
+2024-10-11 15:32:08,570 - 6444-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:55] - INFO: 使用cookie池
+2024-10-11 15:38:14,608 - 6719-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:55] - INFO: 使用cookie池
+2024-10-11 15:38:14,741 - 6719-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:252] - INFO: 所有cookie均已失效，替换（替换后等待一段时间会自动继续）或等待解封
+2024-10-11 15:39:14,744 - 6719-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:252] - INFO: 所有cookie均已失效，替换（替换后等待一段时间会自动继续）或等待解封
+2024-10-11 15:40:14,747 - 6719-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:252] - INFO: 所有cookie均已失效，替换（替换后等待一段时间会自动继续）或等待解封
+2024-10-11 15:41:14,753 - 6719-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:252] - INFO: 所有cookie均已失效，替换（替换后等待一段时间会自动继续）或等待解封
+2024-10-11 15:42:14,759 - 6719-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:252] - INFO: 所有cookie均已失效，替换（替换后等待一段时间会自动继续）或等待解封
+2024-10-11 15:43:14,761 - 6719-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:252] - INFO: 所有cookie均已失效，替换（替换后等待一段时间会自动继续）或等待解封
+2024-10-11 15:44:14,769 - 6719-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:252] - INFO: 所有cookie均已失效，替换（替换后等待一段时间会自动继续）或等待解封
+2024-10-11 15:45:14,773 - 6719-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:252] - INFO: 所有cookie均已失效，替换（替换后等待一段时间会自动继续）或等待解封
+2024-10-11 15:46:05,549 - 6862-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:55] - INFO: 使用cookie池
+2024-10-11 15:47:07,183 - 6862-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/get_font_map.py[line:54] - WARNING: cookie失效或者被限制访问，更新cookie或登录大众点评滑动验证
+2024-10-11 15:48:04,865 - 6901-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:55] - INFO: 使用cookie池
+2024-10-11 15:48:19,460 - 6901-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/get_font_map.py[line:54] - WARNING: cookie失效或者被限制访问，更新cookie或登录大众点评滑动验证
+2024-10-11 15:48:59,542 - 6909-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:55] - INFO: 使用cookie池
+2024-10-11 15:50:05,878 - 6909-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/get_font_map.py[line:54] - WARNING: cookie失效或者被限制访问，更新cookie或登录大众点评滑动验证
+2024-10-11 15:52:52,023 - 7017-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/requests_utils.py[line:55] - INFO: 使用cookie池
+2024-10-11 15:53:20,452 - 7017-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/get_font_map.py[line:54] - WARNING: cookie失效或者被限制访问，更新cookie或登录大众点评滑动验证
+2024-10-11 16:02:13,467 - 7148-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/utils/get_font_map.py[line:54] - WARNING: cookie失效或者被限制访问，更新cookie或登录大众点评滑动验证
+2024-10-11 17:27:05,069 - 8850-MainThread - /Users/dengwentao/zlwork/Python_project/dianping_spider/function/search.py[line:45] - WARNING: 搜索页请求被ban，程序终止

@@ -1,0 +1,1102 @@
+[
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "importPath": "utils.cache",
+        "description": "utils.cache",
+        "isExtraImport": true,
+        "detail": "utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "importPath": "utils.cache",
+        "description": "utils.cache",
+        "isExtraImport": true,
+        "detail": "utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "importPath": "utils.cache",
+        "description": "utils.cache",
+        "isExtraImport": true,
+        "detail": "utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "get_search_map_file",
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "isExtraImport": true,
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "get_review_map_file",
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "isExtraImport": true,
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "get_search_map_file",
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "isExtraImport": true,
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "requests_util",
+        "importPath": "utils.requests_utils",
+        "description": "utils.requests_utils",
+        "isExtraImport": true,
+        "detail": "utils.requests_utils",
+        "documentation": {}
+    },
+    {
+        "label": "requests_util",
+        "importPath": "utils.requests_utils",
+        "description": "utils.requests_utils",
+        "isExtraImport": true,
+        "detail": "utils.requests_utils",
+        "documentation": {}
+    },
+    {
+        "label": "requests_util",
+        "importPath": "utils.requests_utils",
+        "description": "utils.requests_utils",
+        "isExtraImport": true,
+        "detail": "utils.requests_utils",
+        "documentation": {}
+    },
+    {
+        "label": "requests_util",
+        "importPath": "utils.requests_utils",
+        "description": "utils.requests_utils",
+        "isExtraImport": true,
+        "detail": "utils.requests_utils",
+        "documentation": {}
+    },
+    {
+        "label": "requests_util",
+        "importPath": "utils.requests_utils",
+        "description": "utils.requests_utils",
+        "isExtraImport": true,
+        "detail": "utils.requests_utils",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "isExtraImport": true,
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "isExtraImport": true,
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "zlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "zlib",
+        "description": "zlib",
+        "detail": "zlib",
+        "documentation": {}
+    },
+    {
+        "label": "base64",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "base64",
+        "description": "base64",
+        "detail": "base64",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Detail",
+        "importPath": "function.detail",
+        "description": "function.detail",
+        "isExtraImport": true,
+        "detail": "function.detail",
+        "documentation": {}
+    },
+    {
+        "label": "Detail",
+        "importPath": "function.detail",
+        "description": "function.detail",
+        "isExtraImport": true,
+        "detail": "function.detail",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "global_config",
+        "importPath": "utils.config",
+        "description": "utils.config",
+        "isExtraImport": true,
+        "detail": "utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "global_config",
+        "importPath": "utils.config",
+        "description": "utils.config",
+        "isExtraImport": true,
+        "detail": "utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "global_config",
+        "importPath": "utils.config",
+        "description": "utils.config",
+        "isExtraImport": true,
+        "detail": "utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "require_config",
+        "importPath": "utils.config",
+        "description": "utils.config",
+        "isExtraImport": true,
+        "detail": "utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "global_config",
+        "importPath": "utils.config",
+        "description": "utils.config",
+        "isExtraImport": true,
+        "detail": "utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "configparser",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "configparser",
+        "description": "configparser",
+        "detail": "configparser",
+        "documentation": {}
+    },
+    {
+        "label": "_thread",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "_thread",
+        "description": "_thread",
+        "detail": "_thread",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Factory",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Factory",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "Factory",
+        "importPath": "faker",
+        "description": "faker",
+        "isExtraImport": true,
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "pickle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pickle",
+        "description": "pickle",
+        "detail": "pickle",
+        "documentation": {}
+    },
+    {
+        "label": "TTFont",
+        "importPath": "fontTools.ttLib",
+        "description": "fontTools.ttLib",
+        "isExtraImport": true,
+        "detail": "fontTools.ttLib",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "get_map",
+        "importPath": "utils.get_file_map",
+        "description": "utils.get_file_map",
+        "isExtraImport": true,
+        "detail": "utils.get_file_map",
+        "documentation": {}
+    },
+    {
+        "label": "get_map",
+        "importPath": "utils.get_file_map",
+        "description": "utils.get_file_map",
+        "isExtraImport": true,
+        "detail": "utils.get_file_map",
+        "documentation": {}
+    },
+    {
+        "label": "logging.handlers",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging.handlers",
+        "description": "logging.handlers",
+        "detail": "logging.handlers",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "cookie_cache",
+        "importPath": "utils.cookie_utils",
+        "description": "utils.cookie_utils",
+        "isExtraImport": true,
+        "detail": "utils.cookie_utils",
+        "documentation": {}
+    },
+    {
+        "label": "Search",
+        "importPath": "function.search",
+        "description": "function.search",
+        "isExtraImport": true,
+        "detail": "function.search",
+        "documentation": {}
+    },
+    {
+        "label": "Search",
+        "importPath": "function.search",
+        "description": "function.search",
+        "isExtraImport": true,
+        "detail": "function.search",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "importPath": "function.review",
+        "description": "function.review",
+        "isExtraImport": true,
+        "detail": "function.review",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "isExtraImport": true,
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "saver",
+        "importPath": "utils.saver.saver",
+        "description": "utils.saver.saver",
+        "isExtraImport": true,
+        "detail": "utils.saver.saver",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "Controller",
+        "importPath": "utils.spider_controller",
+        "description": "utils.spider_controller",
+        "isExtraImport": true,
+        "detail": "utils.spider_controller",
+        "documentation": {}
+    },
+    {
+        "label": "Detail",
+        "kind": 6,
+        "importPath": "function.detail",
+        "description": "function.detail",
+        "peekOfCode": "class Detail():\n    def __init__(self):\n        self.is_ban = False\n    def get_detail_font_mapping(self, shop_id):\n        \"\"\"\n        获取detail的字体映射，不要解析，只要加密字体映射，给json用\n        @param shop_id:\n        @return:\n        \"\"\"\n        url = 'https://www.dianping.com/shop/' + str(shop_id)",
+        "detail": "function.detail",
+        "documentation": {}
+    },
+    {
+        "label": "get_token",
+        "kind": 2,
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "peekOfCode": "def get_token(shop_url):\n    ts = int(time.time() * 1000)\n    cts = int(time.time() * 1000) - 600\n    tokens = str({\"rId\": '100041', \"ver\": \"1.0.6\", \"ts\": ts, \"cts\": cts, \"brVD\": [1920, 186],\n                  \"brR\": [[1920, 1080], [1920, 1040], 24, 24], \"bI\": [shop_url, shop_url],\n                  \"mT\": [\"1244,588\"], \"kT\": [], \"aT\": [], \"tT\": [], \"aM\": \"\",\n                  \"sign\": \"eJxTKs7IL/BMsTU2NTAwMLVUAgApvgRP\"}).encode()\n    _token = zlib.compress(tokens)\n    token = base64.b64encode(_token).decode()\n    return token",
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_shop_url",
+        "kind": 2,
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "peekOfCode": "def get_shop_url(shop_id):\n    \"\"\"\n    根据shop id 拼接shop url\n    @param shop_id:\n    @return:\n    \"\"\"\n    shop_url = 'https://www.dianping.com/shop/' + str(shop_id)\n    return shop_url\ndef get_font_msg():\n    \"\"\"",
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_font_msg",
+        "kind": 2,
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "peekOfCode": "def get_font_msg():\n    \"\"\"\n    获取加密字体映射文件，如果常规流程，这一步应该是由search中完成并存入缓存。\n    如果冷启动，一次search更新缓存\n    @return:\n    \"\"\"\n    if cache.search_font_map != {}:\n        return cache.search_font_map\n    else:\n        Detail().get_detail_font_mapping('H5BIJ8PN64Rmywap')",
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_retry_time",
+        "kind": 2,
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "peekOfCode": "def get_retry_time():\n    \"\"\"\n    获取ip重试次数\n    @return:\n    \"\"\"\n    # 这里处理解决请求会异常的问题,允许恰巧当前ip出问题，多试一条\n    if spider_config.REPEAT_NUMBER == 0:\n        retry_time = 5\n    else:\n        retry_time = spider_config.REPEAT_NUMBER + 1",
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_basic_hidden_info",
+        "kind": 2,
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "peekOfCode": "def get_basic_hidden_info(shop_id):\n    \"\"\"\n    获取基础隐藏信息（名称、地址、电话号、cityid）\n    @param shop_id:\n    @return:\n    \"\"\"\n    assert len(shop_id) == len('H2noKWCDigM0H9c1')\n    shop_url = get_shop_url(shop_id)\n    url = 'https://www.dianping.com/ajax/json/shopDynamic/basicHideInfo?' \\\n          'shopId=' + str(shop_id) + \\",
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_lat_and_lng",
+        "kind": 2,
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "peekOfCode": "def get_lat_and_lng(shop_id):\n    \"\"\"\n    获取店铺经纬度(glat, glng)\n    @param shop_id:\n    @return:\n    \"\"\"\n    assert len(shop_id) == len('H2noKWCDigM0H9c1')\n    # 此接口只需要shopid即可\n    url = 'https://www.dianping.com/ajax/json/shopDynamic/shopAside?' \\\n          'shopId=' + str(shop_id)",
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_review_and_star",
+        "kind": 2,
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "peekOfCode": "def get_review_and_star(shop_id):\n    \"\"\"\n    获取评分、人均，评论数\n    @param shop_id:\n    @return:\n    \"\"\"\n    assert len(shop_id) == len('H2noKWCDigM0H9c1')\n    shop_url = get_shop_url(shop_id)\n    url = 'https://www.dianping.com/ajax/json/shopDynamic/reviewAndStar?' \\\n          'shopId=' + str(shop_id) + \\",
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_shop_tabs",
+        "kind": 2,
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "peekOfCode": "def get_shop_tabs(shop_id):\n    \"\"\"\n    获取招牌菜、店铺环境等\n    @param shop_id:\n    @return:\n    \"\"\"\n    assert len(shop_id) == len('H2noKWCDigM0H9c1')\n    shop_url = get_shop_url(shop_id)\n    # Todo 这个接口需要登录，以后再说\ndef get_promo_info(shop_id):",
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_promo_info",
+        "kind": 2,
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "peekOfCode": "def get_promo_info(shop_id):\n    \"\"\"\n    优惠券信息\n    @param shop_id:\n    @return:\n    \"\"\"\n    assert len(shop_id) == len('H2noKWCDigM0H9c1')\n    shop_url = get_shop_url(shop_id)\n    # Todo 这个接口需要登录，以后再说\ndef get_basic_review(shop_id):",
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "get_basic_review",
+        "kind": 2,
+        "importPath": "function.get_encryption_requests",
+        "description": "function.get_encryption_requests",
+        "peekOfCode": "def get_basic_review(shop_id):\n    \"\"\"\n    获取评分、人均，评论数\n    @param shop_id:\n    @return:\n    \"\"\"\n    assert len(shop_id) == len('H2noKWCDigM0H9c1')\n    shop_url = get_shop_url(shop_id)\n    url = 'http://www.dianping.com/ajax/json/shopDynamic/allReview?' \\\n          'shopId=' + str(shop_id) + \\",
+        "detail": "function.get_encryption_requests",
+        "documentation": {}
+    },
+    {
+        "label": "Review",
+        "kind": 6,
+        "importPath": "function.review",
+        "description": "function.review",
+        "peekOfCode": "class Review():\n    def __init__(self):\n        self.pages_needed = spider_config.NEED_REVIEW_PAGES\n        self.is_ban = False\n    def get_review(self, shop_id, request_type='proxy, cookie', last_chance=False):\n        if self.is_ban and spider_config.USE_COOKIE_POOL is False:\n            logger.warning('评论页请求被ban，程序继续运行')\n            return_data = {\n                '店铺id': shop_id,\n                '评论摘要': 'ban',",
+        "detail": "function.review",
+        "documentation": {}
+    },
+    {
+        "label": "Search",
+        "kind": 6,
+        "importPath": "function.search",
+        "description": "function.search",
+        "peekOfCode": "class Search():\n    def __init__(self):\n        self.is_ban = False\n    def search(self, search_url, request_type='proxy, cookie', last_chance=False):\n        \"\"\"\n        搜索\n        :param key_word: 关键字\n        :param only_need_first: 只需要第一条\n        :param needed_pages: 需要多少页\n        :return:",
+        "detail": "function.search",
+        "documentation": {}
+    },
+    {
+        "label": "CSV",
+        "kind": 6,
+        "importPath": "utils.saver.csv_saver",
+        "description": "utils.saver.csv_saver",
+        "peekOfCode": "class CSV():\n    def __init__(self):\n        self.create_dir('./output')\n    def save_data(self, data, data_type):\n        \"\"\"\n        保存数据\n        :param data:\n        :param data_type:\n        :return:\n        \"\"\"",
+        "detail": "utils.saver.csv_saver",
+        "documentation": {}
+    },
+    {
+        "label": "MongoSaver",
+        "kind": 6,
+        "importPath": "utils.saver.mongo_saver",
+        "description": "utils.saver.mongo_saver",
+        "peekOfCode": "class MongoSaver():\n    def __init__(self):\n        mongo_url = spider_config.MONGO_PATH\n        try:\n            import pymongo\n            client = pymongo.MongoClient(mongo_url)\n            self.database = client['dianping']\n        except:\n            logger.warning(\n                u'系统中可能没有安装或启动MongoDB数据库，请先根据系统环境安装或启动MongoDB，再运行程序')",
+        "detail": "utils.saver.mongo_saver",
+        "documentation": {}
+    },
+    {
+        "label": "Saver",
+        "kind": 6,
+        "importPath": "utils.saver.saver",
+        "description": "utils.saver.saver",
+        "peekOfCode": "class Saver():\n    \"\"\"\n    存储器\n    \"\"\"\n    def __init__(self):\n        # save_mode = global_config.get('config', 'save_mode')\n        save_mode = spider_config.SAVE_MODE\n        self.saver_list = []\n        # 构造每个存储方法的存储器\n        if 'csv' in save_mode:",
+        "detail": "utils.saver.saver",
+        "documentation": {}
+    },
+    {
+        "label": "saver",
+        "kind": 5,
+        "importPath": "utils.saver.saver",
+        "description": "utils.saver.saver",
+        "peekOfCode": "saver = Saver()",
+        "detail": "utils.saver.saver",
+        "documentation": {}
+    },
+    {
+        "label": "Cache",
+        "kind": 6,
+        "importPath": "utils.cache",
+        "description": "utils.cache",
+        "peekOfCode": "class Cache():\n    \"\"\"\n    全局热缓存，用来缓存比如：字体文件映射这类信息\n    \"\"\"\n    def __init__(self):\n        # 字体映射，用来解析接口的加密信息\n        self.search_font_map = {}\n        # 是否为冷启动，通过实验发现，即使是代理模式，第一条也需要验证码验证\n        self.is_cold_start = True\n        pass",
+        "detail": "utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "kind": 5,
+        "importPath": "utils.cache",
+        "description": "utils.cache",
+        "peekOfCode": "cache = Cache()",
+        "detail": "utils.cache",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "utils.config",
+        "description": "utils.config",
+        "peekOfCode": "class Config(object):\n    def __init__(self, config_file='config.ini'):\n        self.config_file = config_file\n        self._path = os.path.join(os.getcwd(), config_file)\n        if not os.path.exists(self._path):\n            raise FileNotFoundError(\"No such file: \" + config_file)\n        self._config = configparser.ConfigParser()\n        self._config.read(self._path, encoding='utf-8-sig')\n        self._configRaw = configparser.RawConfigParser()\n        self._configRaw.read(self._path, encoding='utf-8-sig')",
+        "detail": "utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "global_config",
+        "kind": 5,
+        "importPath": "utils.config",
+        "description": "utils.config",
+        "peekOfCode": "global_config = Config('./config.ini')\nrequire_config = Config('./require.ini')",
+        "detail": "utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "require_config",
+        "kind": 5,
+        "importPath": "utils.config",
+        "description": "utils.config",
+        "peekOfCode": "require_config = Config('./require.ini')",
+        "detail": "utils.config",
+        "documentation": {}
+    },
+    {
+        "label": "CookieCache",
+        "kind": 6,
+        "importPath": "utils.cookie_utils",
+        "description": "utils.cookie_utils",
+        "peekOfCode": "class CookieCache():\n    def __init__(self):\n        self.all_cookie = []\n        self.valid_cookie = []\n        self.invalid_cookie = []\n        self.init_cookie()\n        self.start_check()\n    def init_cookie(self):\n        \"\"\"\n        初始化cookie，读取文件中cookie信息，添加review、detail标记",
+        "detail": "utils.cookie_utils",
+        "documentation": {}
+    },
+    {
+        "label": "cookie_cache",
+        "kind": 5,
+        "importPath": "utils.cookie_utils",
+        "description": "utils.cookie_utils",
+        "peekOfCode": "cookie_cache = CookieCache()",
+        "detail": "utils.cookie_utils",
+        "documentation": {}
+    },
+    {
+        "label": "DataBaseUtils",
+        "kind": 6,
+        "importPath": "utils.database_utils",
+        "description": "utils.database_utils",
+        "peekOfCode": "class DataBaseUtils():\n    def __init__(self):\n        mongo_url = spider_config.MONGO_PATH\n        try:\n            import pymongo\n            client = pymongo.MongoClient(mongo_url)\n            self.database = client['dianping']\n            self.col = self.database['info']\n        except:\n            logger.warning(",
+        "detail": "utils.database_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_map",
+        "kind": 2,
+        "importPath": "utils.get_file_map",
+        "description": "utils.get_file_map",
+        "peekOfCode": "def get_map(filename='font_map.json'):\n    with open(filename, 'r', encoding='utf-8') as f:\n        key_map = json.load(f)\n    return key_map\nif __name__ == '__main__':\n    get_map()",
+        "detail": "utils.get_file_map",
+        "documentation": {}
+    },
+    {
+        "label": "get_search_map_file",
+        "kind": 2,
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "peekOfCode": "def get_search_map_file(page_source):\n    \"\"\"\n    获取搜索页映射文件\n    :param page_source: 页面源码\n    :return:\n    \"\"\"\n    # 创建临时缓存文件夹\n    create_dir('./tmp')\n    # 返回json映射\n    return_file_map = {}",
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "create_dir",
+        "kind": 2,
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "peekOfCode": "def create_dir(file_name):\n    \"\"\"\n    创建文件夹\n    :param file_name:\n    :return:\n    \"\"\"\n    if os.path.exists(file_name):\n        return\n    else:\n        os.mkdir(file_name)",
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "check_config",
+        "kind": 2,
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "peekOfCode": "def check_config(key):\n    \"\"\"\n    检查配置文件参数（暂未使用）\n    :param key:\n    :return:\n    \"\"\"\n    create_dir('./tmp')\n    if os.path.exists('./tmp/font_config_cache.pkl'):\n        with open('./tmp/font_config_cache.pkl', 'rb') as f:\n            config_data = pickle.load(f)",
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "write_config",
+        "kind": 2,
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "peekOfCode": "def write_config(key, value):\n    \"\"\"\n    写配置文件（暂未使用）\n    :param key:\n    :param value:\n    :return:\n    \"\"\"\n    create_dir('./tmp')\n    if os.path.exists('./tmp/font_config_cache.pkl'):\n        with open('./tmp/font_config_cache.pkl', 'rb') as f:",
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "get_cur_date",
+        "kind": 2,
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "peekOfCode": "def get_cur_date():\n    \"\"\"\n    获取当前时间（返回日期）（暂未使用）\n    :return:\n    \"\"\"\n    return datetime.date.today()\ndef download_woff(woff_url, filename):\n    \"\"\"\n    下载字体文件\n    :param woff_url:",
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "download_woff",
+        "kind": 2,
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "peekOfCode": "def download_woff(woff_url, filename):\n    \"\"\"\n    下载字体文件\n    :param woff_url:\n    :param filename:\n    :return:\n    \"\"\"\n    r = requests_util.get_requests(woff_url, request_type='no header')\n    with open('./tmp/' + filename, 'wb') as f:\n        f.write(r.content)",
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "parse_xml",
+        "kind": 2,
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "peekOfCode": "def parse_xml(filename):\n    \"\"\"\n    解析xml\n    :param filename:\n    :return:\n    \"\"\"\n    saved_name = filename.replace('.xml', '.json')\n    # 获取已经处理好的文字映射\n    data = get_map('./files/template_map.json')\n    # 读取xml文件",
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "parse_woff",
+        "kind": 2,
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "peekOfCode": "def parse_woff(filename):\n    \"\"\"\n    解析woff文件，生成xml文件\n    :param filename:\n    :return:\n    \"\"\"\n    saved_name = filename.replace('.woff', '.xml')\n    font_data = TTFont('./tmp/' + filename)\n    font_data.saveXML('./tmp/' + saved_name)\n    return saved_name",
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "get_header",
+        "kind": 2,
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "peekOfCode": "def get_header():\n    \"\"\"\n    生成请求头（暂未使用）\n    :return:\n    \"\"\"\n    ua_engine = Factory.create()\n    ua = ua_engine.user_agent()\n    header = {\n        'User-Agent': ua,\n    }",
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "get_review_map_file",
+        "kind": 2,
+        "importPath": "utils.get_font_map",
+        "description": "utils.get_font_map",
+        "peekOfCode": "def get_review_map_file(page_source):\n    \"\"\"\n    获取评论页加密文件\n    :param page_source:\n    :return:\n    \"\"\"\n    create_dir('./tmp')\n    # 如果无法在页面信息中解析出字体css文件，说明被反爬或者cookie失效\n    try:\n        css_url = 'https:' + re.findall(' href=\"(//s3plus.meituan.net/v1/.*?)\">', page_source)[0]",
+        "detail": "utils.get_font_map",
+        "documentation": {}
+    },
+    {
+        "label": "set_logger",
+        "kind": 2,
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "peekOfCode": "def set_logger():\n    logger.setLevel(logging.INFO)\n    formatter = logging.Formatter('%(asctime)s - %(process)d-%(threadName)s - '\n                                  '%(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s')\n    console_handler = logging.StreamHandler()\n    console_handler.setFormatter(formatter)\n    logger.addHandler(console_handler)\n    file_handler = logging.handlers.RotatingFileHandler(\n        LOG_FILENAME, maxBytes=10485760, backupCount=5, encoding=\"utf-8\")\n    file_handler.setFormatter(formatter)",
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_FILENAME",
+        "kind": 5,
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "peekOfCode": "LOG_FILENAME = 'dianping.log'\nlogger = logging.getLogger()\ndef set_logger():\n    logger.setLevel(logging.INFO)\n    formatter = logging.Formatter('%(asctime)s - %(process)d-%(threadName)s - '\n                                  '%(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s')\n    console_handler = logging.StreamHandler()\n    console_handler.setFormatter(formatter)\n    logger.addHandler(console_handler)\n    file_handler = logging.handlers.RotatingFileHandler(",
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "utils.logger",
+        "description": "utils.logger",
+        "peekOfCode": "logger = logging.getLogger()\ndef set_logger():\n    logger.setLevel(logging.INFO)\n    formatter = logging.Formatter('%(asctime)s - %(process)d-%(threadName)s - '\n                                  '%(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s')\n    console_handler = logging.StreamHandler()\n    console_handler.setFormatter(formatter)\n    logger.addHandler(console_handler)\n    file_handler = logging.handlers.RotatingFileHandler(\n        LOG_FILENAME, maxBytes=10485760, backupCount=5, encoding=\"utf-8\")",
+        "detail": "utils.logger",
+        "documentation": {}
+    },
+    {
+        "label": "RequestsUtils",
+        "kind": 6,
+        "importPath": "utils.requests_utils",
+        "description": "utils.requests_utils",
+        "peekOfCode": "class RequestsUtils():\n    \"\"\"\n    请求工具类，用于完成全部的请求相关的操作，并进行全局防ban sleep\n    \"\"\"\n    def __init__(self):\n        requests_times = spider_config.REQUESTS_TIMES\n        self.cookie = spider_config.COOKIE\n        self.ua = spider_config.USER_AGENT\n        self.ua_engine = Factory.create()\n        if self.ua is None:",
+        "detail": "utils.requests_utils",
+        "documentation": {}
+    },
+    {
+        "label": "requests_util",
+        "kind": 5,
+        "importPath": "utils.requests_utils",
+        "description": "utils.requests_utils",
+        "peekOfCode": "requests_util = RequestsUtils()",
+        "detail": "utils.requests_utils",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "peekOfCode": "class Config():\n    \"\"\"\n    全局配置类，不再动态加载\n    而是在程序初始化的时候统一加载，各处直接调用\n    \"\"\"\n    def __init__(self):\n        # config 的 config\n        self.USE_COOKIE_POOL = True if global_config.getRaw('config', 'use_cookie_pool') == 'True' else False\n        self.COOKIE = global_config.getRaw('config', 'Cookie')\n        self.USER_AGENT = global_config.getRaw('config', 'user-agent')",
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "spider_config",
+        "kind": 5,
+        "importPath": "utils.spider_config",
+        "description": "utils.spider_config",
+        "peekOfCode": "spider_config = Config()",
+        "detail": "utils.spider_config",
+        "documentation": {}
+    },
+    {
+        "label": "Controller",
+        "kind": 6,
+        "importPath": "utils.spider_controller",
+        "description": "utils.spider_controller",
+        "peekOfCode": "class Controller():\n    \"\"\"\n    整个程序的控制器\n    用来进行爬取策略选择以及数据汇总存储\n    \"\"\"\n    def __init__(self, city_id):\n        self.s = Search()\n        self.d = Detail()\n        self.r = Review()\n        # 初始化基础URL",
+        "detail": "utils.spider_controller",
+        "documentation": {}
+    },
+    {
+        "label": "read_location",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def read_location():\n    fin = open('location_city.txt')\n    city_ids = []\n    strippables = string.punctuation + string.whitespace\n    for line in fin:\n        line = line.strip(strippables)\n        city, city_id = line.split(':')\n        city_ids.append(city_id)\n    return city_ids\ndef read_processed_city_ids():",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "read_processed_city_ids",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def read_processed_city_ids():\n    \"\"\"读取已经处理过的城市ID列表\"\"\"\n    try:\n        with open(PROCESSED_FILE, 'r') as file:\n            processed_city_ids = {line.strip() for line in file}  # 使用集合去重\n    except FileNotFoundError:\n        processed_city_ids = set()\n    return processed_city_ids\ndef write_processed_city_id(city_id):\n    \"\"\"将处理过的城市ID写入文件\"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "write_processed_city_id",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def write_processed_city_id(city_id):\n    \"\"\"将处理过的城市ID写入文件\"\"\"\n    with open(PROCESSED_FILE, 'a') as file:  # 追加模式\n        file.write(f\"{city_id}\\n\")\ndef process_city(city_id):\n    \"\"\"模拟爬取城市数据的操作\"\"\"\n    try:\n        # 这里是你的爬取逻辑\n        controller = Controller(city_id)\n        controller.main()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "process_city",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def process_city(city_id):\n    \"\"\"模拟爬取城市数据的操作\"\"\"\n    try:\n        # 这里是你的爬取逻辑\n        controller = Controller(city_id)\n        controller.main()\n        # 成功后记录已经处理的 city_id\n        write_processed_city_id(city_id)\n        print(f\"城市 {city_id} 爬取成功，已记录。\")\n    except Exception as e:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "parser",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "parser = argparse.ArgumentParser()\nparser.add_argument('--normal', type=int, required=False, default=1,\n                    help='spider as normal(search->detail->review)')\nparser.add_argument('--detail', type=int, required=False, default=0,\n                    help='spider as custom(just detail)')\nparser.add_argument('--review', type=int, required=False, default=0,\n                    help='spider as custom(just review)')\nparser.add_argument('--shop_id', type=str, required=False, default='',\n                    help='custom shop id')\nparser.add_argument('--need_more', type=bool, required=False, default=False,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "args",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "args = parser.parse_args()\n# 文件路径用于记录已经处理过的 city_id\nPROCESSED_FILE = 'processed_city_ids.txt'\ndef read_location():\n    fin = open('location_city.txt')\n    city_ids = []\n    strippables = string.punctuation + string.whitespace\n    for line in fin:\n        line = line.strip(strippables)\n        city, city_id = line.split(':')",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "PROCESSED_FILE",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "PROCESSED_FILE = 'processed_city_ids.txt'\ndef read_location():\n    fin = open('location_city.txt')\n    city_ids = []\n    strippables = string.punctuation + string.whitespace\n    for line in fin:\n        line = line.strip(strippables)\n        city, city_id = line.split(':')\n        city_ids.append(city_id)\n    return city_ids",
+        "detail": "main",
+        "documentation": {}
+    }
+]
